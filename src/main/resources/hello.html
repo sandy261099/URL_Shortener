@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="one.css">
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        #searchBarWrap{
+          display: flex;
+          justify-content: center;
+          padding-top: 20%;
+        }
+
+
+        #searchBar{
+         border:#BA4A00 solid;
+         border-width: .2em;
+         border-radius: .7em 0 0 .7em;
+         padding: .2em .2em .2em .5em;
+         width: 225px;
+        }
+
+        #searchBtn{
+         border:#BA4A00 solid;
+         border-width: .2em;
+         border-radius: 0 .7em .7em 0;
+         background-color: #BA4A00;
+         color:white;
+         font-weight:bold;
+         padding-bottom: .2em;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div id="searchBarWrap">
+    <form method="POST">
+        <input id="searchBar" type="text" name="searchbar" placeholder="Enter URL" />
+        <button id="searchBtn" type="submit"><i class="fa fa-search">Click For Short Url</i></button>
+    </form>
+</div>
+</body>
+
+</html>

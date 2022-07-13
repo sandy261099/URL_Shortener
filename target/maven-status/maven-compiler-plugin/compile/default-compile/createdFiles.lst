@@ -1,0 +1,3 @@
+com/sandeep/lambda/urlshortener/LambdaRequestHandler.class
+com/sandeep/lambda/urlshortener/LambdaRequestPostHandler.class
+com/sandeep/lambda/urlshortener/LambdaRedirectHandler.class
